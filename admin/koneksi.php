@@ -1,15 +1,14 @@
 <?php
-$host="localhost";
-$user="root";
-$password="";
-$database="db_tryoutunmtsbinaulamasilo";
-
-$koneksi=mysql_connect($host,$user,$password);
-mysql_select_db($database,$koneksi);
-//cek koneksi
-if($koneksi){
-	//echo "berhasil koneksi";
-}else{
-	echo "gagal koneksi";
-}
+    $host = "127.0.0.1";
+    $user = "root";
+    $password = "";
+    $database = "e_learning_app";
+    
+    $koneksi = mysqli_connect($host, $user, $password, $database);
+    // cek koneksi
+    if ($koneksi) {
+        // echo "berhasil koneksi";
+    } else {
+        echo "gagal koneksi";
+    }
 ?>
