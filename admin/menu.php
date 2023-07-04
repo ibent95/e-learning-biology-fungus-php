@@ -1,5 +1,6 @@
-<?php session_start();
-include "koneksi.php";
+<?php
+    session_start();
+    include "koneksi.php";
 ?>
 <li><a class="active-menu" href="home.php"><i class="fa fa-dashboard fa-3x"></i> Home</a></li>
 <li><a  href='?page=daftar'><i class='fa fa-bar-chart-o fa-3x'></i> Daftar</a></li>
@@ -9,4 +10,3 @@ include "koneksi.php";
 <li><a  href='?page=view'><i class='fa fa-bar-chart-o fa-3x'></i> Lihat Soal</a></li>
 <li><a href="?page=siswa"><i class="fa fa-sitemap fa-3x"></i> Siswa</a></li>
 <li><a href="laporan.php" target="_blank"><i class="fa fa-list-alt fa-3x"></i> Laporan</a></li>
-		 				
