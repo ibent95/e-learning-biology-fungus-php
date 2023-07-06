@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-12">
-        <h2>E-Learning Biologi - Fungus</h2>
+        <h2>Materi</h2>
 
         <?php if (isset($_SESSION['id_user'])) : ?>
             <h5>Hai <?= ucwords($_SESSION['username']); ?>, selamat datang kembali...</h5>

@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tryout Online App</title>
+    <title>E-Learning Biologi - Fungus</title>
     <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
@@ -34,23 +34,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+
                 <a class="navbar-brand" href="index.php">
                     <?php
                         if (isset($_SESSION['id_user'])) {
                             echo ucwords($_SESSION['username']);
                         } else {
-                            echo "tryoutonline.com";
+                            echo "E-Learning Biologi";
                         }
                     ?>
                 </a>
             </div>
+
             <div style="color: black; padding: 15px 50px 5px 50px; float: right; font-size: 16px;">
                 <?php
                     $echo = base64_decode($acak);
                     if (!isset($_SESSION['id_user'])) {
                 ?>
-                    <form class="form-group input-group input-group-lg" action="?page=login" method="post">
-                        <div class="form-group">
+                    <form class="form-group input-group input-group-lg" action="?page=login" method="post" style="margin-bottom: 0;">
+                        <div class="form-group" style="margin-bottom: 0;">
                             <input type="text" placeholder="username" name="username" />
                             <input type="password" placeholder="password" name="password" />
                             <input type="submit" name="login" class="btn btn-danger square-btn-adjust" value="Login" />
@@ -84,6 +86,7 @@
             </div>
 
         </nav>
+
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
             <div id="page-inner">
@@ -92,11 +95,11 @@
                     <div class="col-md-12">
                         <!-- Advanced Tables -->
                         <div class="panel panel-default">
-                            <div class="panel-heading">Advanced Tables</div>
+                            <!--<div class="panel-heading">Advanced Tables</div>-->
 
                             <div class="panel-body">
 
-                                <?php if (isset($_SESSION['id_user'])) { } ?>
+                                <!--<?php // if (isset($_SESSION['id_user'])) { } ?>-->
 
                                 <?php
                                     if (isset($_GET['page'])) {

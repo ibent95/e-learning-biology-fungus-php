@@ -17,22 +17,22 @@
             $('#datatables').dataTable({
 					     "oLanguage": {
 						      "sLengthMenu": "Tampilkan _MENU_ data per halaman",
-						      "sSearch": "Pencarian: ", 
+						      "sSearch": "Pencarian: ",
 						      "sZeroRecords": "Maaf, tidak ada data yang ditemukan",
 						      "sInfo": "Menampilkan _START_ s/d _END_ dari _TOTAL_ data",
 						      "sInfoEmpty": "Menampilkan 0 s/d 0 dari 0 data",
 						      "sInfoFiltered": "(di filter dari _MAX_ total data)",
 						      "oPaginate": {
 						          "sFirst": "<<",
-						          "sLast": ">>", 
-						          "sPrevious": "<", 
+						          "sLast": ">>",
+						          "sPrevious": "<",
 						          "sNext": ">"
 					       }
 				      },
               "sPaginationType":"full_numbers",
               "bJQueryUI":true
             });
-          })    
+          })
         </script>
 </head>
 <body>
@@ -40,13 +40,12 @@
 		<strong>Hasil Ujian Siswa</strong>
 	</h2>
 	<div class="alert alert-info alert-dismissable">
-		<button type="button" class="close" data-dismiss="alert"
-			aria-hidden="true">×</button>
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+
 		Berikut adalah hasil ujian online anda, silahkan cari nama anda untuk
 		melihat anda lulus seleksi atau tidak.
 
 		<h4>Keterangan</h4>
-
 
 		<a href="#" class="btn btn-danger btn-lg">RM : Remedial</a> <a
 			href="#" class="btn btn-success btn-lg">OK</a>

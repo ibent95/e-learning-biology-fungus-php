@@ -51,10 +51,10 @@
                                 document.write('Selamat siang, pengunjung...');
                         	} else {
                             	if (h < 19) {
-                                	document.write('Selamat sore, pengunjung...'); 
+                                	document.write('Selamat sore, pengunjung...');
                         		} else {
                             		if (h <= 23) {
-                                		document.write('Selamat malam, pengunjung...'); 
+                                		document.write('Selamat malam, pengunjung...');
                         			}
                         		}
                         	}
@@ -88,19 +88,20 @@
 					<div class="col-md-12">
 						<!-- Advanced Tables -->
 						<div class="panel panel-default">
-							<div class="panel-heading">Advanced Tables</div>
+							<!--<div class="panel-heading">Advanced Tables</div>-->
+
 							<div class="panel-body">
-            					<?php if (isset($_SESSION['id_user'])) {} ?>
+            					<!--<?php // if (isset($_SESSION['id_user'])) {} ?>-->
             					<?php
                                     if (isset($_GET['page'])) {
                                         $page = htmlentities($_GET['page']);
                                     } else {
                                         $page = "welcome";
                                     }
-                    
+
                                     $file = "$page.php";
                                     $cek = strlen($page);
-                    
+
                                     if ($cek > 10 || ! file_exists($file) || empty($page)) {
                                         include ("welcome.php");
                                     } else {

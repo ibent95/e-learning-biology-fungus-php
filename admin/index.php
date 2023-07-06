@@ -11,7 +11,6 @@ if (isset($_POST['login'])) {
     $login      = mysqli_query($koneksi, "SELECT * FROM `admin` WHERE `username`='$username' AND `password`='$password'");
     $cek_login  = mysqli_num_rows($login);
 
-    echo "Coba";
     if (empty($cek_login)) {
 
         echo "<script> document.location.href='index.php?status=Password Anda salah!'; </script>";
@@ -46,17 +45,21 @@ if (isset($_POST['login'])) {
 		<div id="contentt">
 			<div id="loginBox">
 				<p>&nbsp;</p>
+
 				<p>
 					<span class="style1">Administrator</span>
 				</p>
+
 				<p>
-					<?php 
-					   if (isset($_GET['status'])) {
-					       echo $_GET['status'];
-					   }
+					<?php
+						if (isset($_GET['status'])) {
+							echo $_GET['status'];
+						}
 					?>
 				</p>
+
 				<p class="info" align="center"></p>
+
 				<form action="index.php" method="post" name="postform">
 					<label for="loginName">Username:</label> <input id="username"
 						class="textFieldLogin" name="username" type="text" /> <label
@@ -67,7 +70,6 @@ if (isset($_POST['login'])) {
 							name="login" />
 					</div>
 				</form>
-				<div class="close" />
 
 			</div>
 		</div>

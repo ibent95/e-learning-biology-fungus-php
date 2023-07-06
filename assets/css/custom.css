@@ -7,16 +7,20 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 /*==============================================
-    GENERAL  STYLES    
+    GENERAL  STYLES
     =============================================*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
- #wrapper {
+i {
+    vertical-align: middle;
+}
+
+#wrapper {
     width: 100%;
     background:#202020;
 }
@@ -25,7 +29,7 @@ body {
     padding: 15px 15px;
     min-height: 600px;
     background:#F3F3F3;
-   
+
 }
 #page-inner {
     width:100%;
@@ -48,43 +52,45 @@ h4 {
     padding-top:10px;
 }
 .square-btn-adjust {
-    border: 0px solid transparent; 
-   -webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
-
+    border: 0px solid transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
 }
+
 p {
     font-size:16px;
     line-height:25px;
     padding-top:20px;
 }
 /*==============================================
-   DASHBOARD STYLES    
-    =============================================*/
+DASHBOARD STYLES
+=============================================*/
 .panel-back {
     background-color:#F8F8F8;
 
 }
-   .noti-box {
-min-height: 100px;
-padding: 20px;
+    .noti-box {
+    min-height: 100px;
+    padding: 20px;
 }
 
-    .noti-box .icon-box {
-display: block;
-float: left;
-margin: 0 15px 10px 0;
-width: 70px;
-height: 70px;
-line-height: 75px;
-vertical-align: middle;
-text-align: center;
-font-size: 40px;
+.noti-box .icon-box {
+    display: block;
+    float: left;
+    margin: 0 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
 }
+
 .text-box p{
     margin: 0 0 3px;
 }
+
 .main-text {
     font-size: 25px;
     font-weight:600;
@@ -192,7 +198,7 @@ color: #8d8888;
 }
 
 /*==============================================
-    MENU STYLES    
+    MENU STYLES
     =============================================*/
 
 
@@ -207,13 +213,14 @@ max-width:170px;
 
 .navbar-cls-top .navbar-brand {
 	color: #fff;
-background: #1f15f9;
-width: 260px;
-text-align: center;
-height: 60px;
-font-size: 30px;
-font-weight: 700;
+    background: #1f15f9;
+    width: 260px;
+    text-align: center;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 700;
 }
+
 .active-menu {
     background-color:#1f15f9!important;
 }
@@ -253,7 +260,7 @@ font-weight: 700;
 	color:#fff;
 	background:#202020;
 	text-shadow:none;
-	
+
 }
 .sidebar-collapse > .nav > li > a {
 	padding:15px 10px;
@@ -263,7 +270,7 @@ font-weight: 700;
 }
 .sidebar-collapse .nav > li > a:hover,
 .sidebar-collapse .nav > li > a:focus {
-	
+
 	background:#0A0A0A;
 	outline:0;
 }
@@ -302,12 +309,12 @@ font-weight: 700;
 .navbar-side {
 	border:none;
 	background-color: #202020;
-	
+
 }
 .navbar-cls-top {
 	background:#4D4D4D;
 	border-bottom:none;
-	
+
 }
 .navbar-cls-top .navbar-brand:hover {
 
@@ -318,7 +325,7 @@ color:#fff;
 
 .navbar-default {
 border:0px solid black;
-     
+
 }
 .navbar-header {
     background: #A70303;
@@ -337,7 +344,7 @@ background-color: #FFF;
     margin-right:10px;
 }
 /*==============================================
-    UI ELEMENTS STYLES     
+    UI ELEMENTS STYLES
     =============================================*/
 .btn-circle {
 width: 50px;
@@ -352,18 +359,18 @@ line-height: 1.428571429;
 }
 
 /*==============================================
-    MEDIA QUERIES     
+    MEDIA QUERIES
     =============================================*/
- 
+
  @media(min-width:768px) {
      #page-wrapper{
                margin: 0 0 0 260px;
         padding: 15px 30px;
         min-height: 1200px;
-		
+
     }
-	
-	
+
+
     .navbar-side {
         z-index: 1;
         position: absolute;
@@ -371,9 +378,9 @@ line-height: 1.428571429;
     }
 
    .navbar {
- border-radius: 0px; 
+ border-radius: 0px;
 }
-   
+
 }
 
 
