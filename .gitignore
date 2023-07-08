@@ -25,3 +25,7 @@ Homestead.json
 .phpunit.result.cache
 
 htdocs
+htdocs/
+htdocs/*
+/htdocs
+/htdocs/*
