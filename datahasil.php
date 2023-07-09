@@ -31,7 +31,7 @@
 					<?php
 						include "koneksi.php";
 
-						$tampil = mysqli_query($koneksi, "select * from tabel_nilai, tabel_user where tabel_nilai.id_user = tabel_user.id_user");
+						$tampil = mysqli_query($koneksi, "SELECT * FROM `tabel_nilai`, `tabel_user` where `tabel_nilai`.`id_user` = `tabel_user`.`id_user`");
 
 						$no = 1;
 						while ($k = mysqli_fetch_array($tampil)) {
